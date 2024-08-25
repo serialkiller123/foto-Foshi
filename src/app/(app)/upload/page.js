@@ -20,7 +20,6 @@ export default function Upload() {
             const response = await uploadImage(data.image[0], data.description)
 
             if (response && response.id) {
-                // Navigate to the image detail page
                 router.push(`/images/${response.id}`)
                 toast({
                     title: 'Uploaded',

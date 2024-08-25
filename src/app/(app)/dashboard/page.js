@@ -1,9 +1,10 @@
 import Header from '@/components/Header'
 
 export const metadata = {
-    title: 'Laravel - Dashboard',
+    title: 'FotoFoshi - Dashboard',
 }
 
+// TODO: Add Dashboard page
 const Dashboard = () => {
     return (
         <>
